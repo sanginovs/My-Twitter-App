@@ -40,7 +40,6 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'sqlite3'
-  gem 'rspec-rails', '2.13.1'
 end
 
 group :development do
@@ -54,7 +53,7 @@ end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'   #allows user interaction with simple English
+  #gem 'capybara', '2.1.0'   #allows user interaction with simple English
 end
 
 
