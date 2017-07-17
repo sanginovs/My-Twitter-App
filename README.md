@@ -38,6 +38,28 @@ What things you need to install:
 6. `rails server` 
 
 
+## Project Structure Overview
+```
+├── app
+│   ├── assets              # Stylesheets and JavaScripts   
+│   ├── controllers         # Controlers are activated by routes and produce output   
+│   ├── jobs                # For creating automated or background tasks
+│   ├── models              # Database models         
+│   └── views               # Frontend .html.erb
+│       └── layouts         # Snippits to include througout the application
+├── config                    
+│   ├── environemnts        # Configuration variables for development, production and testing
+│   ├── database.yml        # Database configuration
+│   └── routes.rb           # Map URL routes to controler actions
+├── db
+│   ├── migrations          # All database changes happen in migration files
+│   └── schema.rb           # Auto-generated overview of database schema            
+├── public                  # File storage folder
+│   
+└──
+```
+
+
 
 ## Running the tests
 
