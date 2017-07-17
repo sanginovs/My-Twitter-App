@@ -15,9 +15,9 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install:
 
 ```
-* **Ruby 2.7**
+1) Ruby 
 
-* **Ruby on Rails** Web Framework (version above 4.0)
+2) Ruby on Rails Web Framework (version above 4.0)
 
 ```
 
