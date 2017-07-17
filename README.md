@@ -63,7 +63,7 @@ To run test suites, `rails test`
 
 ## Authors
 
-* **Sher Sanginov**
+* Sher Sanginov
 
 ## License
 
@@ -71,7 +71,7 @@ This project is licensed under the The MIT License - see the [LICENSE](LICENSE) 
 
 ## Acknowledgments
 * Michael Hartl, the author of [Ruby on Rails](https://www.railstutorial.org/book/) tutorial
-* **StackOverflow**
+* StackOverflow
 
 
 
