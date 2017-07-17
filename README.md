@@ -1,6 +1,5 @@
 # My Twitter Web App
 
-
 ## Introduction
 A Twitter-like microblogging server that has basic features like 
 sign-up, login, logout, tweeting and following users.
@@ -20,8 +19,6 @@ What things you need to install:
 2) Ruby on Rails Web Framework (version above 4.0)
 
 ```
-
-
 
 ### Setting Up a Development Environment
 
@@ -44,7 +41,7 @@ What things you need to install:
 │   ├── assets              # Stylesheets and JavaScripts   
 │   ├── controllers         # Controlers are activated by routes and produce output   
 │   ├── jobs                # For creating automated or background tasks
-│   ├── models              # Database models         
+│   ├── models              # Database model         
 │   └── views               # Frontend .html.erb
 │       └── layouts         # Snippits to include througout the application
 ├── config                    
@@ -55,55 +52,28 @@ What things you need to install:
 │   ├── migrations          # All database changes happen in migration files
 │   └── schema.rb           # Auto-generated overview of database schema            
 ├── public                  # File storage folder
-│   
+│── test                    # All the test suites for controller, models and views are located in this folder
 └──
 ```
 
-
-
 ## Running the tests
 
-
+To run test suites, `rails test`
 
 
 ## Authors
 
 * **Sher Sanginov**
 
-
-
 ## License
 
+This project is licensed under the The MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
-
+* Michael Hartl, the author of [Ruby on Rails tutorial](https://www.railstutorial.org/book/)
 * **StackOverflow**
 
 
 
 
 
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
