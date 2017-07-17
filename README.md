@@ -70,7 +70,7 @@ To run test suites, `rails test`
 This project is licensed under the The MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
-* Michael Hartl, the author of [Ruby on Rails](https://www.railstutorial.org/book/)tutorial
+* Michael Hartl, the author of [Ruby on Rails](https://www.railstutorial.org/book/) tutorial
 * **StackOverflow**
 
 
